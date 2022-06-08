@@ -1,0 +1,54 @@
+2022-06-08T18:44:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', '/Applications/M...', 179)
+#1 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #907)
+#2 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-admin.php(1227): rsssl_certificate->is_valid()
+#4 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-admin.php(134): rsssl_admin->detect_configuration()
+#5 /Applications/MAMP/htdocs/self-tastic/wp-includes/class-wp-hook.php(307): rsssl_admin->init('')
+#6 /Applications/MAMP/htdocs/self-tastic/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /Applications/MAMP/htdocs/self-tastic/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/self-tastic/wp-settings.php(461): do_action('plugins_loaded')
+#9 /Applications/MAMP/htdocs/self-tastic/wp-config.php(96): require_once('/Applications/M...')
+#10 /Applications/MAMP/htdocs/self-tastic/wp-load.php(50): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/self-tastic/wp-admin/admin.php(34): require_once('/Applications/M...')
+#12 /Applications/MAMP/htdocs/self-tastic/wp-admin/plugins.php(10): require_once('/Applications/M...')
+#13 {main}
+  thrown in /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php on line 211
+
+2022-06-08T18:44:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', '/Applications/M...', 179)
+#1 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #907)
+#2 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-admin.php(1227): rsssl_certificate->is_valid()
+#4 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-admin.php(134): rsssl_admin->detect_configuration()
+#5 /Applications/MAMP/htdocs/self-tastic/wp-includes/class-wp-hook.php(307): rsssl_admin->init('')
+#6 /Applications/MAMP/htdocs/self-tastic/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /Applications/MAMP/htdocs/self-tastic/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/self-tastic/wp-settings.php(461): do_action('plugins_loaded')
+#9 /Applications/MAMP/htdocs/self-tastic/wp-config.php(96): require_once('/Applications/M...')
+#10 /Applications/MAMP/htdocs/self-tastic/wp-load.php(50): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/self-tastic/wp-admin/admin.php(34): require_once('/Applications/M...')
+#12 /Applications/MAMP/htdocs/self-tastic/wp-admin/plugins.php(10): require_once('/Applications/M...')
+#13 {main}
+  thrown in /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php on line 211
+
+2022-06-08T18:45:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function rsssl_certificate::custom_error_handling(), 4 passed and exactly 5 expected in /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php:211
+Stack trace:
+#0 [internal function]: rsssl_certificate->custom_error_handling(2, 'stream_socket_c...', '/Applications/M...', 179)
+#1 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php(179): stream_socket_client('ssl://localhost...', 0, '', 30, 4, Resource id #907)
+#2 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php(46): rsssl_certificate->get_certinfo('https://localho...')
+#3 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-admin.php(1227): rsssl_certificate->is_valid()
+#4 /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-admin.php(134): rsssl_admin->detect_configuration()
+#5 /Applications/MAMP/htdocs/self-tastic/wp-includes/class-wp-hook.php(307): rsssl_admin->init('')
+#6 /Applications/MAMP/htdocs/self-tastic/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /Applications/MAMP/htdocs/self-tastic/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /Applications/MAMP/htdocs/self-tastic/wp-settings.php(461): do_action('plugins_loaded')
+#9 /Applications/MAMP/htdocs/self-tastic/wp-config.php(96): require_once('/Applications/M...')
+#10 /Applications/MAMP/htdocs/self-tastic/wp-load.php(50): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/self-tastic/wp-admin/admin.php(34): require_once('/Applications/M...')
+#12 /Applications/MAMP/htdocs/self-tastic/wp-admin/plugins.php(10): require_once('/Applications/M...')
+#13 {main}
+  thrown in /Applications/MAMP/htdocs/self-tastic/wp-content/plugins/really-simple-ssl-master/class-certificate.php on line 211
+
